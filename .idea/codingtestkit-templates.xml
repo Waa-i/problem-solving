@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodingTestKitTemplates">
+    <option name="templatesJson" value="[{&quot;name&quot;:&quot;백준 기본 템플릿&quot;,&quot;language&quot;:&quot;Java&quot;,&quot;code&quot;:&quot;import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.StringTokenizer;\n\npublic class Main {\n    public static void main(String[] args) throws IOException {\n        var br \u003d new BufferedReader(new InputStreamReader(System.in));\n        var st \u003d new StringTokenizer(br.readLine().trim());\n    }\n}&quot;,&quot;inputTemplate&quot;:&quot;&quot;}]" />
+  </component>
+</project>
