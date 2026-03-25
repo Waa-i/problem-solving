@@ -2,8 +2,8 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/problems/백준/Gold III/1600_ 말이 되고픈 원숭이">
-      <sourceFolder url="file://$MODULE_DIR$/problems/백준/Gold III/1600_ 말이 되고픈 원숭이" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/problems/백준/Silver III/2579_ 계단 오르기">
+      <sourceFolder url="file://$MODULE_DIR$/problems/백준/Silver III/2579_ 계단 오르기" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

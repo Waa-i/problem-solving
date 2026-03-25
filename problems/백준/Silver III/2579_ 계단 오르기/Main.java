@@ -1,0 +1,29 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        var br = new BufferedReader(new InputStreamReader(System.in));
+        var st = new StringTokenizer(br.readLine().trim());
+
+        var n = Integer.parseInt(st.nextToken());
+        var stairs = new int[n + 1];
+        for(int i = 0; i < n; i++) {
+            st = new StringTokenizer(br.readLine());
+            stairs[i + 1] = Integer.parseInt(st.nextToken());
+        }
+
+        int[] dp = new int[n + 1];
+        dp[0] = 0;
+        dp[1] = stairs[1];
+        if(n >= 2) {
+            dp[2] = stairs[1] + stairs[2];
+        }
+        for(int i = 3; i <= n; i++) {
+            dp[i] = Math.max(dp[i - 2], dp[i - 3] + stairs[i - 1]) + stairs[i];
+        }
+        System.out.println(dp[n]);
+    }
+}
